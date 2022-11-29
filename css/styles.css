@@ -128,6 +128,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    
 }
 
 .header-contact-list {
@@ -171,7 +172,6 @@ ul {
     padding-bottom: 200px;
 
     max-width: 1600px;
-    min-height: 600px;
     margin-left: auto;
     margin-right: auto;
 
@@ -341,7 +341,6 @@ ul {
     display: block;
     border-radius: 50%;
     color: #afb1b8;
-    background-color: #f5f4fa;
 }
 
 .team-social-link:hover,
@@ -397,6 +396,7 @@ ul {
     color: #afb1b8;
     background-color: #fff;
     padding: 16px 32px;
+    border-radius: 4px;
 }
 
 .client-link:hover,
@@ -429,14 +429,14 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    align-items: baseline;
 }
 
 .footer-social-text {
-    padding: 20px 0px 10px 0px;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     text-transform: uppercase;
     color: var(--white-text-color);
 }
@@ -578,7 +578,7 @@ ul {
 
 .portfolio-border {
     border: 1px solid #eeeeee;
-    border-top: transparent;
+    border-top: none;
     padding: 20px 24px;
 }
 
@@ -595,4 +595,8 @@ ul {
     font-size: 16px;
     line-height: 1.87;
     color: var(--secondary-text-color);
+}
+
+.images {
+    display: block;
 }
